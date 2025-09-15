@@ -7,6 +7,11 @@ st.set_page_config(page_title="Alcohol Consumption Predictor", layout="centered"
 
 st.title("Alcohol Consumption Predictor")
 
+st.image(
+    "https://friendsofglass.com/wp-content/uploads/2024/08/why-does-beer-taste-better-in-glass.png",
+    width="stretch",
+)
+
 st.write("Enter features (numeric inputs) to predict **total litres of pure alcohol**.")
 
 # -----------------------
