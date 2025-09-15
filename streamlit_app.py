@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 
 st.set_page_config(page_title="Alcohol Predictor", layout="centered")
 
-st.title("Alcohol Consumption Predictor")
+st.title("Alcohol Predictor")
 
 st.image(
     "https://friendsofglass.com/wp-content/uploads/2024/08/why-does-beer-taste-better-in-glass.png",
