@@ -6,10 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 st.set_page_config(page_title="Alcohol Consumption Predictor", layout="centered")
 
 st.title("Alcohol Consumption Predictor")
-st.image(
-    "https://images.unsplash.com/photo-1542444459-db3bfb7aeb3b?auto=format&fit=crop&w=1200&q=60",
-    width="stretch",
-)
+
 st.write("Enter features (numeric inputs) to predict **total litres of pure alcohol**.")
 
 # -----------------------
