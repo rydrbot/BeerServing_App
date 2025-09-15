@@ -6,11 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 st.set_page_config(page_title="Beer Servings Predictor", layout="centered")
 
 st.title("Beer Servings Predictor")
-st.image(
-    "https://images.unsplash.com/photo-1542444459-db3bfb7aeb3b?auto=format&fit=crop&w=1200&q=60",
-    width="stretch",  # ✅ use_container_width is deprecated
-)
-st.write("Enter features for a country (numeric inputs) to predict beer servings.")
+st.write("Enter features(numeric inputs) to predict beer servings.")
 
 # -----------------------
 # Train model at runtime
