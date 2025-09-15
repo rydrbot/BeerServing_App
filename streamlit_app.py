@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
 
-st.set_page_config(page_title="Alcohol Consumption Predictor", layout="centered")
+st.set_page_config(page_title="Alcohol Predictor", layout="centered")
 
 st.title("Alcohol Consumption Predictor")
 
